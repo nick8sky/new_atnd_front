@@ -1,0 +1,127 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.text-center{
+  text-align: center !important;
+}
+
+.ant-layout-footer {
+  background: transparent;
+}
+
+.ant-list-item-meta {
+  /* flex: 1 1; */
+}
+
+/*
+.ant-row {
+  background-color: #b7b6a740;
+}*/
+.ant-col-16 {
+  background-color: white;
+}
+
+table,th, td
+{
+  border: 1px solid black;
+}
+table
+{
+  width:80%;
+}
+
+th
+{
+  height:40px;
+}
+th,td
+{
+  text-align:center;
+}
+
+p{
+  font-family: Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Helvetica,Tahoma,Arial sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  line-height: 1.45;
+  border-radius: 3px;
+  background-color: #cdd2d840;
+}
+
+.ant-modal-content {
+  width: 350px;
+  height: 520px;
+  margin-left: 90px;
+}
+
+.gutter-box {
+
+  padding: 10px 0;
+}
+
+.gutter-example .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.link{
+  font-size: 18px;
+  font-weight: 350;
+}
+.markdown-body, body {
+  font-family: Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Helvetica,Tahoma,Arial sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+}
+
+body {
+  font: 13px/1.4 Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+  color: #333;
+  background-color: #fff;
+}
+
