@@ -52,7 +52,7 @@ const React0 = (props) => (
 );
 
 const Kubernetes0 = (props) => (
-    <Bundle load={() => import('./pages/at/Kubernetes/Index')}>
+    <Bundle load={() => import('./pages/at/Container/Index')}>
         {(Chat) => <Chat {...props}/>}
     </Bundle>
 );
@@ -86,7 +86,7 @@ const React_1 = (props) => (
 
 
 const Kubernetes_1 = (props) => (
-    <Bundle load={() => import('./pages/at/Kubernetes/Kb_1')}>
+    <Bundle load={() => import('./pages/at/Container/Kb_1')}>
         {(Chat) => <Chat {...props}/>}
     </Bundle>
 );
