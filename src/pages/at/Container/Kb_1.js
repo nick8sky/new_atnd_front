@@ -18,7 +18,7 @@ class Kb_1 extends Component {
             <div>
 
 
-                <Markdown source={"e"}/>
+                <Markdown source={""}/>
 
 
             </div>

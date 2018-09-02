@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 
 const data = [
     {
-        "title": "Kubernetes 1",
+        "title": "etcd",
         "description": "",
         "url": "kubernetes_1",
         "mi": 2.0,
