@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 
 const data = [
     {
-        "title": "Java 重入锁是怎么解决死锁的",
+        "title": "Linux基础命令",
         "description": "ReentrantLock 和synchronized 都是 可重入锁。",
         "url": "linux_1",
         "mi": 2.0,

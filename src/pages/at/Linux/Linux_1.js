@@ -39,6 +39,7 @@ class Linux_1 extends Component {
                 "## chown\n" +
                 "```\n" +
                 "chmod –R 777 .\n" +
+                "chmod 755 etcdctl \n"+
                 "chown -R etcd2 /home/etcd2   chown -R user dir\n" +
                 "\n" +
                 "```\n" +
