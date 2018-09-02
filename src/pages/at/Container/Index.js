@@ -6,13 +6,13 @@ import React, { Component } from 'react';
 
 const data = [
     {
-        "title": "etcd",
+        "title": "etcd 集群安装",
         "description": "",
         "url": "kubernetes_1",
         "mi": 2.0,
         "typeColor": "cyan",
         "typeName": "Kubernetes",
-        "updateTime": "2018-03-05"
+        "updateTime": "2018-09-01"
     }]
 
 

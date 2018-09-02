@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 const data = [
     {
         "title": "Linux基础命令",
-        "description": "ReentrantLock 和synchronized 都是 可重入锁。",
+        "description": "",
         "url": "linux_1",
         "mi": 2.0,
         "typeColor": "cyan",
