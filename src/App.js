@@ -90,7 +90,11 @@ const Kubernetes_1 = (props) => (
         {(Chat) => <Chat {...props}/>}
     </Bundle>
 );
-
+const Kubernetes_2 = (props) => (
+    <Bundle load={() => import('./pages/at/Container/Kb_2')}>
+        {(Chat) => <Chat {...props}/>}
+    </Bundle>
+);
 
 
 //------------------------Test----------------------
@@ -141,6 +145,8 @@ class App extends Component {
 
                                     {/*------------------------Kubernetes-----------------*/}
                                     <Route component={Kubernetes_1} exact strict path="/kubernetes_1"/>
+                                    <Route component={Kubernetes_2} exact strict path="/kubernetes_2"/>
+
 
                                     {/*------------------------React----------------------*/}
                                     <Route component={React_1} exact strict path="/react_1"/>

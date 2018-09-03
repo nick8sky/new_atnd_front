@@ -13,7 +13,19 @@ const data = [
         "typeColor": "cyan",
         "typeName": "Kubernetes",
         "updateTime": "2018-09-01"
-    }]
+    },
+    {
+        "title": "raft or zab",
+        "description": "",
+        "url": "kubernetes_2",
+        "mi": 2.0,
+        "typeColor": "cyan",
+        "typeName": "Kubernetes",
+        "updateTime": "2018-09-03"
+    },
+
+
+]
 
 
 
