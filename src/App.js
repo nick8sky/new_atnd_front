@@ -99,13 +99,22 @@ const Kubernetes_2 = (props) => (
         {(Chat) => <Chat {...props}/>}
     </Bundle>
 );
-
+const Kubernetes_3 = (props) => (
+    <Bundle load={() => import('./pages/at/Container/Kb_3')}>
+        {(Chat) => <Chat {...props}/>}
+    </Bundle>
+);
 
 //------------------------Test----------------------
 
 
 const Test_1 = (props) => (
     <Bundle load={() => import('./pages/at/Test/Test_1')}>
+        {(Chat) => <Chat {...props}/>}
+    </Bundle>
+);
+const Test_2 = (props) => (
+    <Bundle load={() => import('./pages/at/Test/Test_2')}>
         {(Chat) => <Chat {...props}/>}
     </Bundle>
 );
@@ -151,6 +160,7 @@ class App extends Component {
                                     {/*------------------------Kubernetes-----------------*/}
                                     <Route component={Kubernetes_1} exact strict path="/kubernetes_1"/>
                                     <Route component={Kubernetes_2} exact strict path="/kubernetes_2"/>
+                                    <Route component={Kubernetes_3} exact strict path="/kubernetes_3"/>
 
 
                                     {/*------------------------React----------------------*/}
@@ -158,7 +168,7 @@ class App extends Component {
 
                                     {/*------------------------Test----------------------*/}
                                     <Route component={Test_1} exact strict path="/test_1"/>
-
+                                    <Route component={Test_2} exact strict path="/test_2"/>
 
 
                                     {/*------------------------End------------------------*/}
