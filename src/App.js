@@ -70,7 +70,11 @@ const Linux_1 = (props) => (
         {(Chat) => <Chat {...props}/>}
     </Bundle>
 );
-
+const Maven_1 = (props) => (
+    <Bundle load={() => import('./pages/at/Linux/Maven_1')}>
+        {(Chat) => <Chat {...props}/>}
+    </Bundle>
+);
 
 //------------------------React----------------------
 
@@ -142,6 +146,7 @@ class App extends Component {
 
                                     {/*------------------------Linux----------------------*/}
                                     <Route component={Linux_1} exact strict path="/linux_1"/>
+                                    <Route component={Maven_1} exact strict path="/maven_1"/>
 
                                     {/*------------------------Kubernetes-----------------*/}
                                     <Route component={Kubernetes_1} exact strict path="/kubernetes_1"/>

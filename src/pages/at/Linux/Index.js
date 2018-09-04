@@ -13,7 +13,19 @@ const data = [
         "typeColor": "cyan",
         "typeName": "Linux",
         "updateTime": "2018-03-05"
-    }]
+    },
+    {
+        "title": "Maven",
+        "description": "",
+        "url": "maven_1",
+        "mi": 2.0,
+        "typeColor": "cyan",
+        "typeName": "Linux",
+        "updateTime": "2018-03-05"
+    },
+
+
+    ]
 
 
 
